@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const name = "laurita";
+
 app.get('/', (req,res) => {
-    res.send(`<button>${name}</button>`)
+    res.send(`<button>hello</button>`)
 });
 
 app.listen(3000, () => {
